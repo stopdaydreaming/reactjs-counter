@@ -1,0 +1,24 @@
+.counter {
+    height: 10vh;
+    width: 10vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.counter-display {
+    height: 7vh;
+}
+
+.counter-button-panel {
+    height: 5vh;
+}
+.Counter.border.border-secondary.rounded {
+    width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* desktop: */
+  .Counter.border.border-secondary.rounded {
+      margin-left: 200px;
+  }
+}
